@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<!-- LOGO / NAV -->
+<div class="nav">
+  <div class="logo">
+    <div class="logo-icon"></div>
+    <span class="logo-text">LocalMotion</span>
+  </div>
+</div>
+
+<style>
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #00ffa3, #dc1fff);
+  box-shadow: 0 0 10px rgba(0,255,163,0.6);
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #00ffa3, #dc1fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.5px;
+}
+</style>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Map My Idea</title>
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+
+body {
+  background: radial-gradient(circle at top, #1a1a2e, #0a0a0f);
+  color:#fff;
+}
+
+.container { max-width:1100px; margin:auto; padding:40px 20px; }
+
+h1 { font-size:52px; margin-bottom:20px; }
+h2 { font-size:30px; margin-bottom:20px; }
+p { color:#cfcfcf; margin-bottom:15px; }
+
+.hero { text-align:center; padding:100px 20px 60px; }
+
+.gradient {
+  background: linear-gradient(90deg,#00ffa3,#dc1fff);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.cta {
+  display:inline-block;
+  margin-top:25px;
+  padding:14px 30px;
+  border-radius:10px;
+  background:linear-gradient(90deg,#00ffa3,#dc1fff);
+  color:#000;
+  font-weight:600;
+  text-decoration:none;
+}
+
+.section { margin-top:80px; }
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:20px;
+}
+
+.card {
+  background:rgba(255,255,255,0.05);
+  padding:22px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,0.08);
+}
+
+.card h3 { margin-bottom:10px; }
+
+.form-box {
+  margin-top:40px;
+  background:rgba(255,255,255,0.05);
+  padding:30px;
+  border-radius:14px;
+}
+
+input, textarea, select {
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  margin-bottom:18px;
+  border-radius:8px;
+  border:none;
+  background:#111;
+  color:#fff;
+}
+
+button {
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:8px;
+  background:linear-gradient(90deg,#00ffa3,#dc1fff);
+  color:#000;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.small { font-size:14px; color:#888; }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- HERO -->
+<div class="hero">
+  <h1>
+    From idea → <span class="gradient">real-world execution</span><br>in 7 days
+  </h1>
+
+  <p>
+    I turn your idea into a clear plan and connect you locally so you can take action immediately.
+    Skip the in unnecessary setup or overthinking.
+  </p>
+
+  <a href="#form" class="cta">Map My Idea</a>
+  <p class="small">No fluff. Just a clear path forward.</p>
+</div>
+
+<!-- PROMISE -->
+<div class="section">
+  <h2>This isn’t advice. It’s a plan you can execute immediately.</h2>
+  <p>
+    Most people don’t need more information. They need clarity, direction, and the right connections.
+  </p>
+  <p>
+    I take what you’re trying to build and turn it into a simple, actionable plan with real steps
+    and local opportunities. So you can actually start.
+  </p>
+</div>
+
+<!-- WHAT I DO -->
+<div class="section">
+  <h2>What I Do</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Turn Ideas Into Action</h3>
+      <p>Clear steps on exactly what to do next—no fluff.</p>
+    </div>
+    <div class="card">
+      <h3>Cut Through Friction</h3>
+      <p>Skip unnecessary steps and focus only on what actually moves you forward.</p>
+    </div>
+    <div class="card">
+      <h3>Connect You Locally</h3>
+      <p>Relevant people, partners, and opportunities near you.</p>
+    </div>
+    <div class="card">
+      <h3>Get You a First Win</h3>
+      <p>Customer, donor, event, or traction. Real connections within a week.</p>
+    </div>
+  </div>
+</div>
+
+<!-- WHY -->
+<div class="section">
+  <h2>Most people get stuck before they even begin.</h2>
+  <p>
+    They think they need to set everything up first.<br>
+    They spend weeks researching instead of doing.<br>
+    They don’t know who to talk to.
+  </p>
+  <p>
+    You don’t need most of that to start.
+  </p>
+</div>
+
+<!-- WHAT YOU GET -->
+<div class="section">
+  <h2>Your 7-Day Plan Includes</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Execution Plan</h3>
+      <p>A clear, step-by-step plan tailored to your idea.</p>
+    </div>
+    <div class="card">
+      <h3>Connection Map</h3>
+      <p>Where to go, who to talk to, and how to plug in.</p>
+    </div>
+    <div class="card">
+      <h3>7-Day Action Plan</h3>
+      <p>What to do day-by-day to move forward immediately.</p>
+    </div>
+    <div class="card">
+      <h3>First Result Strategy</h3>
+      <p>How to get your first real traction fast.</p>
+    </div>
+  </div>
+</div>
+
+<!-- EXAMPLES -->
+<div class="section">
+  <h2>What this looks like</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Community Events</h3>
+      <p>Partnered with a venue and hosted an event within a week.</p>
+    </div>
+
+    <div class="card">
+      <h3>Animal Rescue Support</h3>
+      <p>Connected with organizations and started receiving support.</p>
+    </div>
+
+    <div class="card">
+      <h3>Mobile Food Security Project</h3>
+      <p>Secured resources and ran first service quickly.</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- FORM -->
+<div id="form" class="section">
+  <h2>Map My Idea</h2>
+  <p>Tell me what you're trying to build. I’ll map your exact next steps.</p>
+
+  <div class="form-box">
+    <form action="mailto:your@email.com" method="POST" enctype="text/plain">
+
+      <label>What are you trying to start or grow?</label>
+      <textarea name="Idea" required></textarea>
+
+      <label>What’s currently stopping you?</label>
+      <textarea name="Blockers" required></textarea>
+
+      <label>Have you taken any steps already?</label>
+      <textarea name="Progress"></textarea>
+
+      <label>Where are you located?</label>
+      <input type="text" name="Location" required />
+
+      <label>What would a real win look like in 30 days?</label>
+      <textarea name="Goal"></textarea>
+
+      <label>Are you ready to act this week?</label>
+      <select name="Ready">
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+
+      <button type="submit">Build My Plan</button>
+    </form>
+
+    <p class="small">Limited spots — I only take a few requests per week.</p>
+  </div>
+</div>
+
+<div class="section small" style="text-align:center;">
+  Built for people ready to stop thinking and start moving.
+</div>
+
+</div>
+
+</body>
+</html>
